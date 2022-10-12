@@ -22,10 +22,6 @@ Program that simulates a vending machine.
    - If the machine runs out of an item, it should no longer be available as an option. 
    - Items that have an inventory level of zero must still be read from and written to the inventory file and stored in memory.
 
-# HINT
-To make change, create a Change class that takes the amount of change due to the user (in pennies) and then calculates the number of quarters, dimes, nickels, and pennies due back to the user. 
-This class should have accessors for each of the coin types.
-
 # Guidelines
 1. Follow the MVC pattern
    - App class, Controller, View, Service Layer, DAO
